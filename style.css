@@ -1,14 +1,30 @@
 .slider-container {
-	max-width: 100%;
-	height: auto;
+	position: relative;
+	width: 700px;
+	height: 1000px;
+	margin: 40px auto;
 
 	}  
 .body, #shirt, #skirt, #shoes{
-	position:absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 }
+
+.body {
+	z-index: 1;
+}
+#shoes {
+	z-index: 2;
+}
+#skirt {
+	z-index: 3;
+}
+#shirt {
+	z-index: 4;
+}
+
 
 .body {
 	z-index: 1;
