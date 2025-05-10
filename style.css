@@ -1,9 +1,11 @@
 .slider-container {
+	position: absolute;
 	max-width: 100%;
 	height: auto;
 
 	}  
 .body, #shirt, #skirt, #shoes{
+	position: absolute;
 	width: 100%;
 	height: auto;
 }
